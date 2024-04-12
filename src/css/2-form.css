@@ -1,0 +1,74 @@
+body {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+button {
+  display: block;
+  width: 100px;
+  font-family: Montserrat;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.label-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  color: #2e2f42;
+}
+
+input {
+  height: 40px;
+  border-radius: 4px;
+  padding: 0 10px;
+  border: 1px solid #080808;
+}
+
+textarea {
+  height: 80px;
+  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid #080808;
+}
+input[type='email']::placeholder {
+  color: transparent; /* Колір тексту "Type here" */
+}
+
+input[type='email']:hover::placeholder {
+  color: gray; /* Змінюємо колір тексту на прозорий при фокусі */
+}
+
+input:hover {
+  border: 2px solid #000;
+}
+input:focus,
+textarea:focus {
+  outline: none; /* Видаляє виділення (закінчення) рамки при фокусуванні */
+}
+
+button {
+  display: inline-flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #4e75ff;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: rgba(108, 140, 255, 1);
+  cursor: pointer;
+}
