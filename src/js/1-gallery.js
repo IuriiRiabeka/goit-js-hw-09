@@ -82,7 +82,7 @@ const marcup = images
 
 galleryList.innerHTML = marcup;
 
-const lightbox = new SimpleLightbox('.galleryList, .gallery-link', {
+const lightbox = new SimpleLightbox('.gallery a', {
   nav: true,
   captions: true,
   captionsData: 'alt',
