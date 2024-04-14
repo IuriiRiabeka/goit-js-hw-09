@@ -2,5 +2,5 @@ import"./assets/modulepreload-polyfill-3cfb730f.js";/* empty css                
   <a class="gallery-link" href="${o}">
     <img class="gallery-image" src="${p}" alt="${a}" />
   </a>
-</li>`).join("");e.innerHTML=n;new i(".gallery a",{nav:!0,captions:!0,captionsData:"alt",captionDelay:250});
+</li>`).join("");e.innerHTML=n;new i(".gallery a",{nav:!0,captionsData:"alt",captionDelay:250});
 //# sourceMappingURL=commonHelpers.js.map
