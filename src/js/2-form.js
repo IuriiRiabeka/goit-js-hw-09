@@ -17,11 +17,11 @@ function onInputForm(event) {
 function onSubmitForm(event) {
   event.preventDefault();
   const savedObj = JSON.parse(localStorage.getItem(key));
-  const email = emailInput.value.trim();
-  const message = messageInput.value.trim();
+  const email = form.elements.email.value.trim();
+  const message = form.elements.message.value.trim();
 
   if (email && message) {
-    console.log(savedObj);
+    console.log({ email, message });
     form.reset();
     localStorage.removeItem(key);
   } else {
